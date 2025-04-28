@@ -16,7 +16,7 @@ nav {
   top: 0;
   z-index: 1000;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 40px;
   border-bottom: 1px solid #ddd;
 }
@@ -33,7 +33,7 @@ nav a:hover {
 header {
   color: white;
   text-align: center;
-  padding: 150px 20px;
+  padding: 250px 20px;
   position: relative;
 }
 header::after {
@@ -100,7 +100,7 @@ section h2 {
   max-width: 600px;
 }
 .about-text {
-  margin-right: 50px;
+  padding: 0 50px;
   line-height: 40px;
   font-size: 18px;
   text-align: center;
@@ -109,7 +109,7 @@ section h2 {
   width: 100%;
   border-radius: 8px;
 }
-.services-container {
+.products-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 40px;
