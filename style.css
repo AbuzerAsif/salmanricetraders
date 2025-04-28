@@ -87,7 +87,7 @@ section h2 {
   margin-bottom: 40px;
   color: #000;
 }
-.products-text {
+.services-text {
   text-align: center;
   margin: 0 auto 100px;
   color: #000;
@@ -117,7 +117,7 @@ section h2 {
   width: 100%;
   border-radius: 8px;
 }
-.products-container {
+.services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 40px;
