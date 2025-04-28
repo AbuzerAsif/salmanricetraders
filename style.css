@@ -87,6 +87,14 @@ section h2 {
   margin-bottom: 40px;
   color: #000;
 }
+.products-text {
+  text-align: center;
+  margin: 0 auto 100px;
+  color: #000;
+  max-width: 500px;
+  line-height: 40px;
+  font-size: 18px;
+}
 .about-container {
   display: flex;
   flex-wrap: wrap;
@@ -100,7 +108,7 @@ section h2 {
   max-width: 600px;
 }
 .about-text {
-  padding: 0 50px;
+  padding: 0 25px;
   line-height: 40px;
   font-size: 18px;
   text-align: center;
@@ -121,6 +129,10 @@ section h2 {
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
+}
+.service-card h1 {
+  font-size: 4em;
+  margin: 0;
 }
 .service-card:hover {
   transform: translateY(-5px);
