@@ -99,6 +99,12 @@ section h2 {
   min-width: 300px;
   max-width: 600px;
 }
+.about-text {
+  margin-right: 50px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+}
 .about-image img {
   width: 100%;
   border-radius: 8px;
@@ -114,6 +120,7 @@ section h2 {
   border: 1px solid #eee;
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
 }
 .service-card:hover {
   transform: translateY(-5px);
